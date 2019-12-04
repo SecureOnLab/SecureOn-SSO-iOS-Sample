@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28202C90196677DB004794AF /* SsoAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28202C8F196677DB004794AF /* SsoAppViewController.m */; };
+		28202C96196F6233004794AF /* SsoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28202C95196F6233004794AF /* SsoWebViewController.m */; };
+		286AF604197E30FC00B3B7F8 /* aoa.png in Resources */ = {isa = PBXBuildFile; fileRef = 286AF601197E30FC00B3B7F8 /* aoa.png */; };
+		286AF605197E30FC00B3B7F8 /* safeidentity_logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 286AF602197E30FC00B3B7F8 /* safeidentity_logo.PNG */; };
+		286AF606197E30FC00B3B7F8 /* sofo_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 286AF603197E30FC00B3B7F8 /* sofo_logo.png */; };
+		28AF75611A42A1100031F330 /* SsoApiTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF75601A42A1100031F330 /* SsoApiTestTableViewController.m */; };
+		28AF75641A43A82F0031F330 /* SsoApiTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF75631A43A82F0031F330 /* SsoApiTestViewController.m */; };
+		28AF75661A47DA060031F330 /* libiposso.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AF75651A47DA060031F330 /* libiposso.a */; };
+		28AF75681A47DD850031F330 /* sso_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28AF75671A47DD850031F330 /* sso_config.plist */; };
 		28C34DCD1963D5ED000AE59F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DCC1963D5ED000AE59F /* Foundation.framework */; };
 		28C34DCF1963D5ED000AE59F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DCE1963D5ED000AE59F /* CoreGraphics.framework */; };
 		28C34DD11963D5ED000AE59F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DD01963D5ED000AE59F /* UIKit.framework */; };
@@ -15,13 +24,14 @@
 		28C34DDD1963D5ED000AE59F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C34DDC1963D5ED000AE59F /* AppDelegate.m */; };
 		28C34DE01963D5ED000AE59F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C34DDE1963D5ED000AE59F /* Main_iPhone.storyboard */; };
 		28C34DE31963D5ED000AE59F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C34DE11963D5ED000AE59F /* Main_iPad.storyboard */; };
-		28C34DE61963D5ED000AE59F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C34DE51963D5ED000AE59F /* ViewController.m */; };
 		28C34DE81963D5ED000AE59F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C34DE71963D5ED000AE59F /* Images.xcassets */; };
 		28C34DEF1963D5ED000AE59F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DEE1963D5ED000AE59F /* XCTest.framework */; };
 		28C34DF01963D5ED000AE59F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DCC1963D5ED000AE59F /* Foundation.framework */; };
 		28C34DF11963D5ED000AE59F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C34DD01963D5ED000AE59F /* UIKit.framework */; };
 		28C34DF91963D5ED000AE59F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28C34DF71963D5ED000AE59F /* InfoPlist.strings */; };
 		28C34DFB1963D5ED000AE59F /* MSSOSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C34DFA1963D5ED000AE59F /* MSSOSampleTests.m */; };
+		28C34E101963DBEA000AE59F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C34E0F1963DBEA000AE59F /* LoginViewController.m */; };
+		28C34E131963DF07000AE59F /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C34E121963DF07000AE59F /* CommonUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28202C8E196677DB004794AF /* SsoAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsoAppViewController.h; sourceTree = "<group>"; };
+		28202C8F196677DB004794AF /* SsoAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsoAppViewController.m; sourceTree = "<group>"; };
+		28202C94196F6233004794AF /* SsoWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsoWebViewController.h; sourceTree = "<group>"; };
+		28202C95196F6233004794AF /* SsoWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsoWebViewController.m; sourceTree = "<group>"; };
+		286AF601197E30FC00B3B7F8 /* aoa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aoa.png; sourceTree = "<group>"; };
+		286AF602197E30FC00B3B7F8 /* safeidentity_logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safeidentity_logo.PNG; sourceTree = "<group>"; };
+		286AF603197E30FC00B3B7F8 /* sofo_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sofo_logo.png; sourceTree = "<group>"; };
+		28AF75481A4010D50031F330 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = lib/Base64.h; sourceTree = "<group>"; };
+		28AF75491A4010D50031F330 /* iposso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iposso.h; path = lib/iposso.h; sourceTree = "<group>"; };
+		28AF754B1A4010D50031F330 /* NVDS_Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVDS_Wrapper.h; path = lib/NVDS_Wrapper.h; sourceTree = "<group>"; };
+		28AF754C1A4010D50031F330 /* NVDS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NVDS2.h; path = lib/NVDS2.h; sourceTree = "<group>"; };
+		28AF754D1A4010D50031F330 /* SsoConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SsoConst.h; path = lib/SsoConst.h; sourceTree = "<group>"; };
+		28AF754E1A4010D50031F330 /* SsoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SsoUtil.h; path = lib/SsoUtil.h; sourceTree = "<group>"; };
+		28AF754F1A4010D50031F330 /* StringEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringEncryption.h; path = lib/StringEncryption.h; sourceTree = "<group>"; };
+		28AF75501A4010D50031F330 /* StringList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringList.h; path = lib/StringList.h; sourceTree = "<group>"; };
+		28AF755F1A42A1100031F330 /* SsoApiTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsoApiTestTableViewController.h; sourceTree = "<group>"; };
+		28AF75601A42A1100031F330 /* SsoApiTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsoApiTestTableViewController.m; sourceTree = "<group>"; };
+		28AF75621A43A82F0031F330 /* SsoApiTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SsoApiTestViewController.h; sourceTree = "<group>"; };
+		28AF75631A43A82F0031F330 /* SsoApiTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SsoApiTestViewController.m; sourceTree = "<group>"; };
+		28AF75651A47DA060031F330 /* libiposso.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiposso.a; path = lib/libiposso.a; sourceTree = "<group>"; };
+		28AF75671A47DD850031F330 /* sso_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sso_config.plist; sourceTree = "<group>"; };
 		28C34DC91963D5ED000AE59F /* MSSOSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSSOSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C34DCC1963D5ED000AE59F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28C34DCE1963D5ED000AE59F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +78,16 @@
 		28C34DDC1963D5ED000AE59F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28C34DDF1963D5ED000AE59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		28C34DE21963D5ED000AE59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		28C34DE41963D5ED000AE59F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28C34DE51963D5ED000AE59F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		28C34DE71963D5ED000AE59F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28C34DED1963D5ED000AE59F /* MSSOSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSSOSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C34DEE1963D5ED000AE59F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		28C34DF61963D5ED000AE59F /* MSSOSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSSOSampleTests-Info.plist"; sourceTree = "<group>"; };
 		28C34DF81963D5ED000AE59F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28C34DFA1963D5ED000AE59F /* MSSOSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSSOSampleTests.m; sourceTree = "<group>"; };
+		28C34E0E1963DBEA000AE59F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		28C34E0F1963DBEA000AE59F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		28C34E111963DF07000AE59F /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		28C34E121963DF07000AE59F /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +97,7 @@
 			files = (
 				28C34DCF1963D5ED000AE59F /* CoreGraphics.framework in Frameworks */,
 				28C34DD11963D5ED000AE59F /* UIKit.framework in Frameworks */,
+				28AF75661A47DA060031F330 /* libiposso.a in Frameworks */,
 				28C34DCD1963D5ED000AE59F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +115,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28202C97196F9FDB004794AF /* SSOLib */ = {
+			isa = PBXGroup;
+			children = (
+				28AF75651A47DA060031F330 /* libiposso.a */,
+				28AF75481A4010D50031F330 /* Base64.h */,
+				28AF75491A4010D50031F330 /* iposso.h */,
+				28AF754B1A4010D50031F330 /* NVDS_Wrapper.h */,
+				28AF754C1A4010D50031F330 /* NVDS2.h */,
+				28AF754D1A4010D50031F330 /* SsoConst.h */,
+				28AF754E1A4010D50031F330 /* SsoUtil.h */,
+				28AF754F1A4010D50031F330 /* StringEncryption.h */,
+				28AF75501A4010D50031F330 /* StringList.h */,
+			);
+			name = SSOLib;
+			sourceTree = "<group>";
+		};
 		28C34DC01963D5ED000AE59F = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +153,7 @@
 		28C34DCB1963D5ED000AE59F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28202C97196F9FDB004794AF /* SSOLib */,
 				28C34DCC1963D5ED000AE59F /* Foundation.framework */,
 				28C34DCE1963D5ED000AE59F /* CoreGraphics.framework */,
 				28C34DD01963D5ED000AE59F /* UIKit.framework */,
@@ -118,8 +169,18 @@
 				28C34DDC1963D5ED000AE59F /* AppDelegate.m */,
 				28C34DDE1963D5ED000AE59F /* Main_iPhone.storyboard */,
 				28C34DE11963D5ED000AE59F /* Main_iPad.storyboard */,
-				28C34DE41963D5ED000AE59F /* ViewController.h */,
-				28C34DE51963D5ED000AE59F /* ViewController.m */,
+				28C34E0E1963DBEA000AE59F /* LoginViewController.h */,
+				28C34E0F1963DBEA000AE59F /* LoginViewController.m */,
+				28202C8E196677DB004794AF /* SsoAppViewController.h */,
+				28202C8F196677DB004794AF /* SsoAppViewController.m */,
+				28202C94196F6233004794AF /* SsoWebViewController.h */,
+				28202C95196F6233004794AF /* SsoWebViewController.m */,
+				28AF755F1A42A1100031F330 /* SsoApiTestTableViewController.h */,
+				28AF75601A42A1100031F330 /* SsoApiTestTableViewController.m */,
+				28AF75621A43A82F0031F330 /* SsoApiTestViewController.h */,
+				28AF75631A43A82F0031F330 /* SsoApiTestViewController.m */,
+				28C34E111963DF07000AE59F /* CommonUtil.h */,
+				28C34E121963DF07000AE59F /* CommonUtil.m */,
 				28C34DE71963D5ED000AE59F /* Images.xcassets */,
 				28C34DD31963D5ED000AE59F /* Supporting Files */,
 			);
@@ -129,10 +190,14 @@
 		28C34DD31963D5ED000AE59F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				286AF601197E30FC00B3B7F8 /* aoa.png */,
+				286AF602197E30FC00B3B7F8 /* safeidentity_logo.PNG */,
+				286AF603197E30FC00B3B7F8 /* sofo_logo.png */,
 				28C34DD41963D5ED000AE59F /* MSSOSample-Info.plist */,
 				28C34DD51963D5ED000AE59F /* InfoPlist.strings */,
 				28C34DD81963D5ED000AE59F /* main.m */,
 				28C34DDA1963D5ED000AE59F /* MSSOSample-Prefix.pch */,
+				28AF75671A47DD850031F330 /* sso_config.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,7 +299,11 @@
 				28C34DE31963D5ED000AE59F /* Main_iPad.storyboard in Resources */,
 				28C34DE81963D5ED000AE59F /* Images.xcassets in Resources */,
 				28C34DE01963D5ED000AE59F /* Main_iPhone.storyboard in Resources */,
+				286AF605197E30FC00B3B7F8 /* safeidentity_logo.PNG in Resources */,
+				28AF75681A47DD850031F330 /* sso_config.plist in Resources */,
 				28C34DD71963D5ED000AE59F /* InfoPlist.strings in Resources */,
+				286AF604197E30FC00B3B7F8 /* aoa.png in Resources */,
+				286AF606197E30FC00B3B7F8 /* sofo_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C34DE61963D5ED000AE59F /* ViewController.m in Sources */,
+				28202C90196677DB004794AF /* SsoAppViewController.m in Sources */,
+				28C34E131963DF07000AE59F /* CommonUtil.m in Sources */,
+				28AF75611A42A1100031F330 /* SsoApiTestTableViewController.m in Sources */,
+				28AF75641A43A82F0031F330 /* SsoApiTestViewController.m in Sources */,
 				28C34DDD1963D5ED000AE59F /* AppDelegate.m in Sources */,
 				28C34DD91963D5ED000AE59F /* main.m in Sources */,
+				28C34E101963DBEA000AE59F /* LoginViewController.m in Sources */,
+				28202C96196F6233004794AF /* SsoWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +467,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSSOSample/MSSOSample-Prefix.pch";
 				INFOPLIST_FILE = "MSSOSample/MSSOSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +486,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSSOSample/MSSOSample-Prefix.pch";
 				INFOPLIST_FILE = "MSSOSample/MSSOSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +556,7 @@
 				28C34E001963D5ED000AE59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C34E011963D5ED000AE59F /* Build configuration list for PBXNativeTarget "MSSOSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +565,7 @@
 				28C34E031963D5ED000AE59F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

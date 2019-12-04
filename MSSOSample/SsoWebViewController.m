@@ -2,15 +2,13 @@
 //  SsoWebViewController.m
 //  MSSOSample
 //
-//  Created by smoh on 2014. 7. 7..
-//  Copyright (c) 2014년 smoh. All rights reserved.
-//
+
 
 #import "SsoWebViewController.h"
 #import "CommonUtil.h"
 #import "SsoAppViewController.h"
 
-#define HOME_URL    @"http://192.168.70.155:7080/m/msso_web_sample.jsp" //홈 버튼에 대한 URL
+#define HOME_URL    @"http://192.168.60.136:7070/demo/ios/msso_web_sample.jsp" //홈 버튼에 대한 URL
 
 #define TAG_BACKBUTTON  10
 #define TAG_FORWARDBUTTON   20
@@ -45,10 +43,17 @@ static NSInteger		_responseEncoding = 0;
     NSLog(@"SsoWebViewController - ViewDidLoad..");
     
     NSURL *url = [NSURL URLWithString:_urlText.text];
-    NSString *token = [NSString stringWithFormat:@"ssoToken=%@", commonUtil.ssoToken];
+//    20140722 smoh modify
+    NSString *param;
+    if ([commonUtil.secIdFlag isEqualToString:@"TRUE"]) {
+        param = [NSString stringWithFormat:@"ssoToken=%@&secId=%@", commonUtil.ssoToken, getSecId()];
+    } else {
+        param = [NSString stringWithFormat:@"ssoToken=%@", commonUtil.ssoToken];
+    }
+    
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
     [request setHTTPMethod:@"POST"];
-    [request setHTTPBody:[token dataUsingEncoding:NSUTF8StringEncoding]];
+    [request setHTTPBody:[param dataUsingEncoding:NSUTF8StringEncoding]];
     [_ssoWebView loadRequest:request];
 }
 

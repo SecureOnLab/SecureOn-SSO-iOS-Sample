@@ -2,17 +2,14 @@
 //  SsoApiTestTableViewController.m
 //  MSSOSample
 //
-//  Created by smoh on 2014. 12. 18..
-//  Copyright (c) 2014년 smoh. All rights reserved.
-//
+
 
 #import "SsoApiTestTableViewController.h"
-
-@interface SsoApiTestTableViewController ()
-
-@end
+#import "SsoApiTestViewController.h"
 
 @implementation SsoApiTestTableViewController
+
+@synthesize ssoApiListData = _ssoApiListData;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +29,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    NSArray *array = [[NSArray alloc] initWithObjects:@"putValue()", @"getValue()", @"getAllValues()", @"userPwdInit()", @"userModifyPwd()", @"userSearch()", @"userView()", @"getUserRoleList()", @"getResourcePermission()", @"getResourceList()", nil];
+    self.ssoApiListData = array;
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,28 +44,52 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    if (section == 0) {
+        return [self.ssoApiListData count];
+    } else {
+        return 0;   
+    }
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    static NSString *ssoApiTableCellIdentitfier = @"SsoApiTableCellIdentifier";
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ssoApiTableCellIdentitfier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ssoApiTableCellIdentitfier];
     
     // Configure the cell...
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ssoApiTableCellIdentitfier];
+    }
+    
+    cell.textLabel.text = [self.ssoApiListData objectAtIndex:indexPath.row];
     
     return cell;
 }
-*/
+
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    UIViewController *ssoApiTestViewController = [UIViewController alloc];
+//    [self.navigationController pushViewController:ssoApiTestViewController animated:YES];
+//}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"SsoApiTestSegue"]) {
+        SsoApiTestViewController *ssoApiTestViewController = segue.destinationViewController;
+        UITableViewCell *selectedSsoApiTableCell = (UITableViewCell *)sender;
+        
+//        [ssoApiTestViewController setApiTestModeValue:[[selectedSsoApiTableCell textLabel] text]];
+        [ssoApiTestViewController setApiTestModeValue:[[selectedSsoApiTableCell textLabel] text]];
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.

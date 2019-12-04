@@ -2,9 +2,7 @@
 //  NVDS2.h
 //  iposso
 //
-//  Created by dev1 on 10. 6. 21..
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
+
 
 #ifndef __NVDS2_H__
 #define __NVDS2_H__

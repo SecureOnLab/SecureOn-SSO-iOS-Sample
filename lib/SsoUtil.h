@@ -2,9 +2,7 @@
 //  SsoUtil.h
 //  iposso
 //
-//  Created by smoh on 2014. 12. 16..
-//
-//
+
 
 #import <Foundation/Foundation.h>
 
@@ -14,5 +12,8 @@
 +(NSString *)checkNull:(NSString *)str;
 //number 체크 메서드
 +(BOOL)isNumber:(NSString *)str;
-
+// trim 관련 메서드
++(NSString *)ltrim:(NSString *)iData;
++(NSString *)rtrim:(NSString *)iData;
++(NSString *)trim:(NSString *)iData;
 @end

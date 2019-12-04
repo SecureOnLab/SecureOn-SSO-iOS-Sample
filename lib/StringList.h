@@ -2,9 +2,7 @@
 //  StringList.h
 //  iposso
 //
-//  Created by dev1 on 10. 6. 21..
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
+
 
 #ifndef __STRINGLIST_H__
 #define __STRINGLIST_H__

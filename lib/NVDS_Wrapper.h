@@ -2,9 +2,6 @@
 //  NVDS_Wrapper.h
 //  iposso
 //
-//  Created by dev1 on 10. 6. 21..
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
 
 #include "NVDS2.h"
 

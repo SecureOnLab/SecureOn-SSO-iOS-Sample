@@ -2,9 +2,7 @@
 //  SsoConst.h
 //  iposso
 //
-//  Created by smoh on 2014. 12. 16..
-//
-//
+
 
 #import <Foundation/Foundation.h>
 
@@ -53,47 +51,47 @@ extern NSString *const HTTP_GET;
 extern char *const RESULT;
 extern char *const RESULT_MSG;
 
-+(NSString *) CMD;
-+(NSString *) TOKEN;
-+(NSString *) UID;
-+(NSString *) PWD;
-+(NSString *) CURRENT_PWD;
-+(NSString *) NEW_PWD;
-+(NSString *) CIP;
-+(NSString *) SEC_ID;
-+(NSString *) OVERWRITE;
-+(NSString *) TAG_NAME;
-+(NSString *) TAG_VALUE;
-+(NSString *) INDEX;
-+(NSString *) PWD_CHANGE_FLAG;
-+(NSString *) SRDN;
-+(NSString *) ROLE_SEARCH;
-+(NSString *) BASE;
-+(NSString *) SCOPE;
-+(NSString *) PERMISSION;
-+(NSString *) E_VERSION;
-
-+(NSString *) CMD_GET_KEY;
-+(NSString *) CMD_MAKE_SIMPLE_TOKEN;
-+(NSString *) CMD_REGUSER_SESSION;
-+(NSString *) CMD_AUTH_ID;
-+(NSString *) CMD_VERIFY_TOKEN;
-+(NSString *) CMD_UNREG_USER_SESSION;
-+(NSString *) CMD_PUT_VALUE;
-+(NSString *) CMD_GET_VALUE;
-+(NSString *) CMD_GET_ALL_VALUES;
-+(NSString *) CMD_USER_PWD_INIT;
-+(NSString *) CMD_USER_MODIFY_PWD;
-+(NSString *) CMD_USER_SEARCH;
-+(NSString *) CMD_GET_RESOURCE_LIST;
-+(NSString *) CMD_GET_RESOURCE_PERMISSION;
-+(NSString *) CMD_GET_USER_ROLE_LIST;
-+(NSString *) CMD_USER_VIEW;
-
-+(NSString *) HTTP_POST;
-+(NSString *) HTTP_GET;
-
-+(char *) RESULT;
-+(char *) RESULT_MSG;
+//+(NSString *) CMD;
+//+(NSString *) TOKEN;
+//+(NSString *) UID;
+//+(NSString *) PWD;
+//+(NSString *) CURRENT_PWD;
+//+(NSString *) NEW_PWD;
+//+(NSString *) CIP;
+//+(NSString *) SEC_ID;
+//+(NSString *) OVERWRITE;
+//+(NSString *) TAG_NAME;
+//+(NSString *) TAG_VALUE;
+//+(NSString *) INDEX;
+//+(NSString *) PWD_CHANGE_FLAG;
+//+(NSString *) SRDN;
+//+(NSString *) ROLE_SEARCH;
+//+(NSString *) BASE;
+//+(NSString *) SCOPE;
+//+(NSString *) PERMISSION;
+//+(NSString *) E_VERSION;
+//
+//+(NSString *) CMD_GET_KEY;
+//+(NSString *) CMD_MAKE_SIMPLE_TOKEN;
+//+(NSString *) CMD_REGUSER_SESSION;
+//+(NSString *) CMD_AUTH_ID;
+//+(NSString *) CMD_VERIFY_TOKEN;
+//+(NSString *) CMD_UNREG_USER_SESSION;
+//+(NSString *) CMD_PUT_VALUE;
+//+(NSString *) CMD_GET_VALUE;
+//+(NSString *) CMD_GET_ALL_VALUES;
+//+(NSString *) CMD_USER_PWD_INIT;
+//+(NSString *) CMD_USER_MODIFY_PWD;
+//+(NSString *) CMD_USER_SEARCH;
+//+(NSString *) CMD_GET_RESOURCE_LIST;
+//+(NSString *) CMD_GET_RESOURCE_PERMISSION;
+//+(NSString *) CMD_GET_USER_ROLE_LIST;
+//+(NSString *) CMD_USER_VIEW;
+//
+//+(NSString *) HTTP_POST;
+//+(NSString *) HTTP_GET;
+//
+//+(char *) RESULT;
+//+(char *) RESULT_MSG;
 
 @end
