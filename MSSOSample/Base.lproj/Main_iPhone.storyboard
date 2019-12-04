@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="AiQ-Gv-6rW">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="AiQ-Gv-6rW">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fVt-bJ-XG6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GYq-lr-8D6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmP-F3-tOJ">
@@ -61,7 +59,6 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CSR-zs-gb7">
                                 <rect key="frame" x="112" y="390" width="113" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                 <connections>
@@ -113,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9nU-SW-97u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-712" y="-27"/>
+            <point key="canvasLocation" x="-1034" y="-162"/>
         </scene>
         <!--SsoApiTest-->
         <scene sceneID="Ud8-c7-tgD">
@@ -124,7 +121,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nOy-2q-oft"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tyf-7F-DnN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMc-Fe-iBt">
@@ -241,22 +238,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DRK-1x-5XZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1195" y="955"/>
+            <point key="canvasLocation" x="1100" y="1483"/>
         </scene>
         <!--SsoApiTestTable-->
         <scene sceneID="PK1-5P-QQ1">
             <objects>
                 <tableViewController id="gTH-tF-3fk" customClass="SsoApiTestTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lTF-2s-QJl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SsoApiTableCellIdentifier" id="wG0-BT-e5Q">
-                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wG0-BT-e5Q" id="fvH-Ru-UYf">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="348" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -274,7 +271,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tck-4w-HuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="769" y="955"/>
+            <point key="canvasLocation" x="202" y="1483"/>
         </scene>
         <!--SsoAPITable-->
         <scene sceneID="Utq-HX-QNM">
@@ -282,7 +279,7 @@
                 <navigationController definesPresentationContext="YES" id="Sgi-Rd-Wyp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="SsoAPITable" id="uLi-SI-OVU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2dl-Mc-Nfw">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -291,7 +288,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUW-eZ-t5I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="331" y="955"/>
+            <point key="canvasLocation" x="-694" y="1483"/>
         </scene>
         <!--SSO App-->
         <scene sceneID="r67-0P-IPX">
@@ -302,7 +299,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gu8-0n-OHt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Uiy-Na-Xx1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qaz-to-jGP" colorLabel="IBBuiltInLabel-Yellow">
@@ -357,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7l-UG-wSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="322" y="-442"/>
+            <point key="canvasLocation" x="52" y="238"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fLJ-sT-chS">
@@ -377,7 +374,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bEO-pr-wgw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-198" y="-34"/>
+            <point key="canvasLocation" x="-1033" y="713"/>
         </scene>
         <!--SSO WEB-->
         <scene sceneID="n4w-dJ-eEB">
@@ -388,16 +385,16 @@
                         <viewControllerLayoutGuide type="bottom" id="msK-ha-WoS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="385-8b-8dK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1MG-zl-ntp">
-                                <rect key="frame" x="0.0" y="107" width="375" height="506"/>
+                                <rect key="frame" x="0.0" y="107" width="375" height="486"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5w-FU-MGz">
-                                <rect key="frame" x="0.0" y="162" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="142" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem tag="10" title="&lt;" id="gYg-mF-q6u">
@@ -458,12 +455,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cVW-0A-7Dx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="338" y="232"/>
+            <point key="canvasLocation" x="-1377" y="1483"/>
         </scene>
     </scenes>
     <resources>
         <image name="aoa.png" width="479" height="620"/>
-        <image name="safeidentity_logo.PNG" width="246" height="59"/>
+        <image name="safeidentity_logo.PNG" width="184.5" height="44.25"/>
         <image name="sofo_logo.png" width="482" height="322"/>
     </resources>
     <color key="tintColor" red="0.97722061819999995" green="0.33309392450000003" blue="0.80304556299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
